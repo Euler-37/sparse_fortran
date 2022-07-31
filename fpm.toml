@@ -1,0 +1,19 @@
+name = "sparse_fortran"
+version = "0.1.0"
+license = "license"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+[install]
+library = false
+
+[[test]]
+name = "check_coo"
+source-dir = "test"
+main = "check_coo.f90"
+
+[[test]]
+name = "check_csr"
+source-dir = "test"
+main = "check_csr.f90"
