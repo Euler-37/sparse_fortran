@@ -12,7 +12,7 @@ sparse matrix will automatically increase
 
 ``` fortran
 type(sparse_coo)::a
-integer::ix(9),jx(8)
+integer::ix(9),jx(9)
 real(8)::val(9)
 call a%sparse_init(ix,jx,val,dimx=10,dimy=10)
 ```
